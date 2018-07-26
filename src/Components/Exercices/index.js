@@ -1,3 +1,15 @@
 import React from 'react'
-
-export default props => <div>Hello from exercices</div>
+import { Grid } from 'material-ui'
+export default props => (
+  <Grid container>
+    <Grid item sm>
+      Left pane
+    </Grid>
+    <Grid item sm>
+      Center pane
+    </Grid>
+    <Grid item sm>
+      Right pane
+    </Grid>
+  </Grid>
+)
