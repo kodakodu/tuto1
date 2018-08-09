@@ -1,4 +1,7 @@
-import React from "react";
-import { Paper } from "material-ui";
+import React from 'react'
+import { Paper } from 'material-ui'
 
-export default ({ styles }) => <Paper style={styles.Paper}>Left pane</Paper>;
+const styles = {
+  Paper: { padding: 20, marginBottom: 10, marginTop: 10 }
+}
+export default props => <Paper style={styles.Paper}>Left pane</Paper>
